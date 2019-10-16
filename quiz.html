@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/quiz.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class='outer'>
+
+    <div class="container1">
+      <div class="quiz-container">
+        <div id="timer">
+          <h1></h1>
+        </div>
+        <div class="question-container" id="question">
+        </div>
+        <div class="answer-container">
+          <label for="answer">Enter Answer here: </label><br>
+          <input type="text" name="answer" id="answer">
+          <button type="button" name="button">NEXT</button>
+        </div>
+        <p class="guideline">In case of answer with decimal value round off to nearest integer</p>
+      </div>
+    <div class="bottom-container">
+      <h4>Correct: <span id='totalCorrect'>0</span></h4>
+      <h4>Incorrect: <span id='totalIncorrect'>0</span></h4>
+      <h4>Time out: <span id='totalTimedOut'>0</span></h4>
+    </div>
+    </div>
+
+    <div class="container2">
+      <div class="quiz-container">
+        <div id="timer">
+          <h1></h1>
+        </div>
+        <div class="question-container" id="question">
+        </div>
+        <div class="answer-container">
+          <label for="answer">Enter Answer here: </label><br>
+          <input type="text" name="answer" id="answer">
+          <button type="button" name="button">NEXT</button>
+        </div>
+        <p class="guideline">In case of answer with decimal value round off to nearest integer</p>
+      </div>
+    <div class="bottom-container">
+      <h4>Correct: <span id='totalCorrect'>0</span></h4>
+      <h4>Incorrect: <span id='totalIncorrect'>0</span></h4>
+      <h4>Time out: <span id='totalTimedOut'>0</span></h4>
+    </div>
+    </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="module" src="js/quiz_manager.js"></script>
+  </body>
+</html>
